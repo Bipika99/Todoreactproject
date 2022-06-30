@@ -21,7 +21,7 @@ const App = () =>{
     };
 
     const deleteItems = (id) => {
-        console.log("deleted");
+        console.log("deleted1");
 
         setItems((oldItems) => {
             return oldItems.filter((arrElem, index) => {
